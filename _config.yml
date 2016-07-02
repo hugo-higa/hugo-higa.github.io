@@ -1,0 +1,16 @@
+name: Programando com Hugo
+description: Um blog sobre programação, computação e desenvolvimento de jogos.
+meta_description: "Um blog sobre programação, computação e desenvolvimento de jogos."
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 10
+baseurl: /
+domain_name: 'http://hugo-0.github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'http://hugo-0.github.io'
+author:         'Hugo'

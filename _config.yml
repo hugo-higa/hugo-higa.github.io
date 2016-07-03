@@ -1,16 +1,64 @@
-name: Programando com Hugo
-description: Um blog sobre programação, computação e desenvolvimento de jogos.
-meta_description: "Um blog sobre programação, computação e desenvolvimento de jogos."
-
+# Jykell configuration
+#markdown: redcarpet
+#highlighter: pygments
 markdown: kramdown
-highlighter: pygments
-logo: false
-paginate: 10
-baseurl: /
-domain_name: 'http://hugo-0.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
-gems: [jekyll-paginate]
+highlighter: rouge
+paginate: 5
+language: 'en-uk'
 
-# Details for the RSS feed generator
-url:            'http://hugo-0.github.io'
-author:         'Hugo'
+# Website info
+name: 'Café com Java'
+description: "Um site sobre desenvolvimento de jogos e programação."
+
+# Author's info
+author: 'Hugo'
+# edit 'categories' in the front matter of every post to match this username
+nickname: Hugo
+bio: 'Biografia em construção.'
+location: 'Maine, USA'
+url: 'http://hugo-0.github.io'
+image: 'assets/images/casper.png'
+
+short_url: 'http://hugo-0.github.io'
+google_analytics: UA-69281367-1
+disqus: username
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: /
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
+
+
+# gems and other configs
+gems: [jekyll-paginate]
+exclude: [vendor]
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+
+exclude:
+  - README.md
+  - Rakefile
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml

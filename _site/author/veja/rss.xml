@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://hugo-0.github.io</title>
+   
+   <link>http://hugo-0.github.io</link>
+   <description>Um site sobre desenvolvimento de jogos e programação.</description>
+   <language>en-uk</language>
+   <managingEditor> Hugo</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Hello World! Finalmente!</title>
+	  <link>//welcome-to-jekyll</link>
+	  <author>Hugo</author>
+	  <pubDate>1863-11-19T07:11:32-03:06</pubDate>
+	  <guid>//welcome-to-jekyll</guid>
+	  <description><![CDATA[
+	     <p>Aqui tem um snippet bem básico como exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll’s GitHub repo</a>.</p>
+
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

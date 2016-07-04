@@ -1759,14 +1759,16 @@ body:not(.post-template) .post-title {
     }
 
     .menu-button {
-        padding: 0 5px;
+        
+        padding: 0 40px;
         border-radius: 0;
         border-width: 0;
-        color: #2e2e2e;
+        /* color: #2e2e2e; */
         background: transparent;
+        margin-right: 2px;
     }
     .menu-button:hover {
-        color: #2e2e2e;
+        /* color: #2e2e2e; */
         border-color: transparent;
         background: none;
     }

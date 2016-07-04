@@ -7,6 +7,24 @@ class: 'post-template'
 
 <!-- The comment above "< default" means - insert everything in this file into -->
     <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+{% assign post = page %}
+{% assign category = site.my_categories | where: "slug", post.category %}
+  {% assign category = category[0] %}
+  {% if category %}
+    {% capture category_content %}<a class="label" href="{{ category.url }}" style="background-color:{{ category.color }}">{{ category.name }}</a>{% endcapture %}
+  {% endif %}
+
+  {% if post.tags.size > 0 %}
+    {% capture tags_content %} with <span class="icon-price-tag{% if post.tags.size > 1 %}s{% endif %}"></span>: {% endcapture %}
+    {% for post_tag in post.tags %}
+      {% assign tag = site.my_tags | where: "slug", post_tag %}
+      {% if tag %}
+        {% assign tag = tag[0] %}
+        {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url }}">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+        {% assign tags_content = tags_content_temp %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 
 <!-- Everything inside the #post tags pulls data from the post -->
 <!-- #post -->
@@ -29,7 +47,8 @@ class: 'post-template'
             <section class="post-meta">
             <!-- <a href='{{ site.baseurl }}{{ page.about }}'>{{ site.author }}</a> -->
             <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
-                <!-- [[tags prefix=" on "]] -->
+           
+                
                 {% if page.tags.size > 0 %} 
                 on 
                 {% for tag in page.tags %}
@@ -40,6 +59,9 @@ class: 'post-template'
                     {% endif %}   
                 {% endfor %}
                 {% endif %}
+                
+                teste: in {{ category_content }}<small>{{ tags_content }}</small>
+               
             </section>
         </header>
 

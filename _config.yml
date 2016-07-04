@@ -1,13 +1,26 @@
+# Where things are:
+collections:
+  my_tags:
+    output: true
+    permalink: /tag/:name/
+
+defaults:
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: blog_by_category
+
 # Jykell configuration
 #markdown: redcarpet
 #highlighter: pygments
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-uk'
+language: 'pt-br'
 
 # Website info
-name: 'Café com Java'
+name: 'Secret Stage'
 description: "Um site sobre desenvolvimento de jogos e programação."
 
 # Author's info
@@ -15,9 +28,9 @@ author: 'Hugo'
 # edit 'categories' in the front matter of every post to match this username
 nickname: Hugo
 bio: 'Biografia em construção.'
-location: 'Maine, USA'
+location: 'São Paulo, Brasil'
 url: 'http://hugo-0.github.io'
-image: 'assets/images/casper.png'
+image: 'assets/images/avatar.png'
 
 short_url: 'http://hugo-0.github.io'
 google_analytics: UA-69281367-1

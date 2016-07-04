@@ -534,7 +534,7 @@ body.nav-opened .nav-cover {
     left: 0;
     right: 240px;
     bottom: 0;
-    z-index: 200;
+    z-index: 1000;
 }
 
 .nav {
@@ -547,7 +547,7 @@ body.nav-opened .nav-cover {
     opacity: 0;
     background: #111;
     margin-bottom: 0;
-    text-align: left;
+    text-align: right; /*mudado*/
     overflow-y: auto;
     -webkit-transition: -webkit-transform 0.5s ease,
     opacity 0.3s ease 0.7s;
@@ -630,35 +630,41 @@ body.nav-opened .nav {
     padding: 90px 9% 5%;
     list-style: none;
     counter-reset: item;
+
 }
 
 .nav li:before {
     display: block;
     float: right;
-    padding-right: 4%;
-    padding-left: 5px;
+    
+    padding-right: 5px;
     text-align: right;
     font-size: 1.2rem;
     vertical-align: bottom;
     color: #B8B8B8;
-    content: counter(item, lower-roman);
-    counter-increment: item;
+    /* content: counter(item, lower-roman);
+    counter-increment: item; */
 }
 .nav li {
     margin: 0;
+    text-align: right;
 }
 .nav li a {
+    text-align: right;
     text-decoration: none;
     line-height: 1.4;
     font-size: 1.4rem;
     display: block;
     padding: 0.6rem 4%;
     overflow: hidden;
+    /*
     white-space: nowrap;
     text-overflow: ellipsis;
+    */
 }
 .nav li a:after {
     display: inline-block;
+    text-align: right;
     content: " .......................................................";
     color: rgba(255,255,255,0.2);
     margin-left: 5px;
@@ -809,7 +815,7 @@ body.nav-opened .nav {
     top: 1px;
 }
 .menu-button:hover {
-    background: #a9bdc7;
+    background: #fff;
 }
 .menu-button:focus {
     outline: 0;

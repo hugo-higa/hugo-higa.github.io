@@ -3,9 +3,8 @@ layout: post
 cover: 'assets/images/cover1.jpg'
 title: Primeiro post
 date:   2016-07-03 15:00:00
-tags: [tag2, bomdemaispraserverdade]
+tags: [Outros, Meus Projetos]
 subclass: 'post tag-outros'
-categories: 'Outros'
 logo: 'assets/images/ghost.png'
 navigation: True
 ---

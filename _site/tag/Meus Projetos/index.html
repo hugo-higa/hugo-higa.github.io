@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Secret Stage</title>
+    <title>Sem nome</title>
     <meta name="description" content="Sem nome - Etc blabla." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -68,7 +68,7 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home  nav-current" role="presentation">
+        <li class="nav-home " role="presentation">
         <a href="/">Página Inicial</a></li>
         <li class="nav-about " role="presentation">
         <a href="/about">Sobre Mim</a></li>
@@ -91,108 +91,50 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < default -->
-<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
-
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/assets/images/cover1.jpg) ">
-    <nav class="main-nav overlay clearfix">
+        <header class="main-header post-head " style="background-image: url(/assets/images/cover1.jpg) ">
+    <nav class="main-nav  overlay  clearfix">
         <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
         
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
     </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Sem nome</h1>
-            <h2 class="page-description">Etc blabla.</h2>
-        </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
-<!-- The main content area on the homepage -->
-<main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
-        <!-- Previous/next page links - only displayed on page 2+ -->
-    <div class="extra-pagination inner">
+<div>
+    
         
-            <nav class="pagination" role="pagination">
-    
-    <span class="page-number"> Página 1 de 1 </span>
-     
-</nav>
+        <article class="post">
+            <header class="post-header">
+                <h2 class="post-title"><a href="/primeiro-post">Primeiro post</a></h2>
+            </header>
+            <section class="post-excerpt">
+                <p>Bem, esse é o primeiro post depois de uma semana tentando subir esse blog!! (Incompetência é foda).Ainda tenho que arrumar muita coisa no blog, mas já... <a class="read-more" href="/primeiro-post">&raquo;</a></p>
+            </section>
+            <footer class="post-meta">
+                <img class="author-thumb" src="/assets/images/avatar.png" alt="Author image" nopin="nopin" />
+                <!-- author -->
+                <a href='/author/Hugo'>Hugo</a>
+                <!-- [[tags prefix=" on "]] -->
+                 
+                    on 
+                    
+                        
+                           <a href='/tag/Outros'>Outros</a>,
+                           
+                    
+                        
+                           <a href='/tag/Meus Projetos'>Meus projetos</a>
+                           
+                    
+                
+                <time class="post-date" datetime="2016-07-03">03 Jul 2016</time>
+            </footer>
+        </article>
         
-    </div>
+    
+</div>
 
-    <!-- This is the post loop - each post will be output using this markup -->
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/primeiro-post">Primeiro post</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Bem, esse é o primeiro post depois de uma semana tentando subir esse blog!! (Incompetência é foda).Ainda tenho que arrumar muita coisa no blog, mas já... <a class="read-more" href="/primeiro-post">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/assets/images/avatar.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/author/Hugo'>Hugo</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                em 
-                
-                    
-                       <a href='/tag/Outros'>Outros</a>,
-                       
-                
-                    
-                       <a href='/tag/Meus Projetos'>Meus projetos</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-07-03">03 Jul 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/welcome-to-jekyll">Hello World! Finalmente!</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Aqui tem um snippet bem básico como exemplo: def print_hi(name) puts "Hi, #{name}" end print_hi('Tom') #=&gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs... <a class="read-more" href="/welcome-to-jekyll">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/assets/images/avatar.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/author/Hugo'>Hugo</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                em 
-                
-                    
-                       <a href='/tag/Outros'>Outros</a>
-                       
-                
-            
-            <time class="post-date" datetime="1863-11-19">19 Nov 1863</time>
-        </footer>
-    </article>
-    
-
-    <!-- Previous/next page links - displayed on every page -->
-    
-        <nav class="pagination" role="pagination">
-    
-    <span class="page-number"> Página 1 de 1 </span>
-     
-</nav>
-    
-
-
-</main>
 
 
         <footer class="site-footer clearfix">

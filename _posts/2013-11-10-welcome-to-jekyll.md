@@ -3,9 +3,8 @@ layout: post
 cover: 'assets/images/cover1.jpg'
 title: Hello World! Finalmente!
 date:   1863-11-19 10:18:00
-tags: [teste1, tag2, vamosla]
+tags: [Outros]
 subclass: 'post tag-fiction'
-categories: 'veja o que acontece'
 logo: 'assets/images/ghost.png'
 navigation: True
 ---

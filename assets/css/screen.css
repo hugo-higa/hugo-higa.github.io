@@ -1000,6 +1000,7 @@ body:not(.post-template) .post-title {
 .post-date {
     display: inline-block;
     margin-left: 8px;
+    margin-bottom: 16px;
     padding-left: 12px;
     border-left: #d5dbde 1px solid;
     text-transform: uppercase;
@@ -1399,7 +1400,7 @@ body:not(.post-template) .post-title {
 }
 
 .read-next-story .post:before {
-    content: "Read This Next";
+    content: "Artigo recomendado";
     padding: 4px 10px 5px;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -1581,11 +1582,11 @@ body:not(.post-template) .post-title {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
-    color: #BBC7CC;
+    color: #a9bdc7;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #a9bdc7;
     text-decoration: none;
     font-weight: bold;
 }
@@ -1594,14 +1595,14 @@ body:not(.post-template) .post-title {
     border-bottom: #bbc7cc 1px solid;
 }
 
-.poweredby {
+.copyright {
     display: block;
     width: 45%;
     float: right;
     text-align: right;
 }
 
-.copyright {
+.poweredby {
     display: block;
     width: 45%;
     float: left;

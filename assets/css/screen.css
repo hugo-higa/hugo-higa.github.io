@@ -854,7 +854,7 @@ body.nav-opened .nav {
 /* When the navigation is closed */
 .nav-closed .menu-button {
     color: #a9bdc7;
-    border-color: rgba(255, 255, 255, 0.6);
+    border-color: #a9bdc7;
 }
 .nav-closed .menu-button:hover {
     color: #222;

@@ -1,2 +1,0 @@
-slug: Outros
-name: Outros

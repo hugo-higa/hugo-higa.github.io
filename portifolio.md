@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Secret Stage
+layout: page
+title: Portifólio
 cover: 'assets/images/cover1.jpg'
 class: 'home-template'
 navigation: True

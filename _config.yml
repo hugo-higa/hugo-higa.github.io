@@ -20,8 +20,8 @@ paginate: 5
 language: 'pt-br'
 
 # Website info
-name: 'Sem nome'
-description: "Etc blabla."
+name: 'Cheat Code'
+description: "Um blog sobre programação e desenvolvimento de jogos"
 
 # Author's info
 author: 'Hugo'

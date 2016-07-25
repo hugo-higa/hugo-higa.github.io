@@ -1812,12 +1812,15 @@ body:not(.post-template) .post-title {
 
     .menu-button {
         position: fixed;
+        margin: 2px 0 0 0;
         right: 5px;
         color: #a9bdc7;
         z-index: 999;
     }
     .menu-button:before {
-        right: 5px;
+        right: 60px;
+        top: 18px;
+        margin: 2px 0 0 0;
         position: fixed;
         color: #a9bdc7;
         z-index: 999;

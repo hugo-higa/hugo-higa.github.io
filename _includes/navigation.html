@@ -6,17 +6,23 @@
     <ul>
         <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation">
         <a href="{{ site.baseurl }}">Página Inicial</a></li>
+
         <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation">
         <a href="{{ site.baseurl }}about">Sobre Mim</a></li>
+
         <li class="nav-programacao {% if page.url contains 'Programação' %} nav-current{% endif %}" role="presentation">
         <a href="{{ site.baseurl }}tag/Programação">Programação</a></li>
-        <li class="nav-jogos {% if page.url contains 'jogos' %} nav-current{% endif %}" role="presentation">
+
+        <li class="nav-jogos {% if page.url contains 'Jogos' %} nav-current{% endif %}" role="presentation">
         <a href="{{ site.baseurl }}tag/Jogos">Jogos</a></li>
-        <li class="nav-projetos {% if page.url contains 'meus projetos' %} nav-current{% endif %}" role="presentation">
-        <a href="{{ site.baseurl }}tag/Meus Projetos">Meus Projetos</a></li>
-        <li class="nav-portifolio {% if page.current == 'portifolio' %} nav-current{% endif %}" role="presentation">
+
+        <li class="nav-portifolio {% if page.url == {{ site.baseurl }}portifolio %} nav-current{% endif %}" role="presentation">
         <a href="{{ site.baseurl }}portifolio">Portifólio</a></li>
-        <li class="nav-outros {% if page.current == 'outros' %} nav-current{% endif %}" role="presentation">
+
+        <li class="nav-projetos {% if page.url contains 'Meus Projetos' %} nav-current{% endif %}" role="presentation">
+        <a href="{{ site.baseurl }}tag/Meus Projetos">Meus Projetos</a></li>
+
+        <li class="nav-outros {% if page.current contains 'Outro' %} nav-current{% endif %}" role="presentation">
         <a href="{{ site.baseurl }}tag/Outros">Outros</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>

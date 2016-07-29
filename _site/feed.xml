@@ -51,20 +51,5 @@
       </item>
       
     
-      
-      <item>
-        <title>Hello World! Finalmente!</title>
-        
-          <description>&lt;p&gt;Aqui tem um snippet bem básico como exemplo:&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 19 Nov 1863 07:11:32 -0306</pubDate>
-        <link>
-        http://hugo-0.github.io/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://hugo-0.github.io/welcome-to-jekyll</guid>
-      </item>
-      
-    
   </channel>
 </rss>

@@ -4,7 +4,7 @@ title: Site quase pronto
 date:   2016-07-27 17:00:00
 tags: [Meus Projetos]
 subclass: 'post tag-outros'
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/logo.png'
 navigation: True
 ---
 

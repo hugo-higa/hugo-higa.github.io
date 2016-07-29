@@ -5,7 +5,7 @@ title: Primeiro post
 date:   2016-07-03 15:00:00
 tags: [Outros, Meus Projetos]
 subclass: 'post tag-outros'
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/logo.png'
 navigation: True
 ---
 

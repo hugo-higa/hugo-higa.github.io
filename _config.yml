@@ -11,7 +11,7 @@ defaults:
     values:
       layout: blog_by_category
 
-# Jykell configuration
+# Jekyll configuration
 #markdown: redcarpet
 #highlighter: pygments
 markdown: kramdown

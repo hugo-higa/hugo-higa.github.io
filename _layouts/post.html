@@ -50,7 +50,7 @@ class: 'post-template'
            
                 
                 {% if page.tags.size > 0 %} 
-                on 
+                em 
                 {% for tag in page.tags %}
                     {% if forloop.index == page.tags.size %}
                        <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>

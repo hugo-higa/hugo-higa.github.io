@@ -45,5 +45,5 @@ function activateCheats() {
   // audio.play();
 
   alert("cheats activated");
-  window.open("http://www.churchofsatan.com/");
+  window.open("pages/game.html");
 }

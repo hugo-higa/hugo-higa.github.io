@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Teste de alguns markdowns</title>
+        
+          <description>&lt;p&gt;Ainda estou fuçando as funcionalidades que o Jekyll oferece, e apesar do Github oferecer um sistema com mais &lt;a href=&quot;https://help.github.com/enterprise/11.10.340/user/articles/github-flavored-markdown/&quot;&gt;funções&lt;/a&gt;, eu não sei se os mesmos estão implementados no Github pages.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 03 Aug 2016 13:10:00 -0300</pubDate>
+        <link>
+        http://hugo-0.github.io/testes-de-alguns-markdowns</link>
+        <guid isPermaLink="true">http://hugo-0.github.io/testes-de-alguns-markdowns</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Site quase pronto</title>
         
           <description>&lt;p&gt;Depois de um mês implementando o site, a maior parte das coisas que eu queria colocar no site está funcionando.&lt;/p&gt;

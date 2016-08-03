@@ -9,7 +9,6 @@ var allowedKeys = {
   39: 'right',
   40: 'down',
   65: 'a',
-  66: 'b',
   68: 'd',
   69: 'e',
   72: 'h',
@@ -18,13 +17,9 @@ var allowedKeys = {
 };
 
 // the 'official' Konami Code sequence
-var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
-
-// and my cheat code
 var cheatCode = ['left', 'h', 'e', 'a', 't', 'left', 'o', 'd', 'e'];
 
 // a variable to remember the 'position' the user has reached so far.
-var konamiCodePosition = 0;
 var cheatCodePosition = 0;
 
 // add keydown event listener
@@ -32,32 +27,19 @@ document.addEventListener('keydown', function(e) {
   // get the value of the key code from the key map
   var key = allowedKeys[e.keyCode];
   // get the value of the required key from the konami code
-  var requiredKey = konamiCode[konamiCodePosition];
-  var requiredKey2 = cheatCode[cheatCodePosition];
+  var requiredKey = cheatCode[cheatCodePosition];
 
   // compare the key with the required key
-  if (key == requiredKey2) {
+  if (key == requiredKey) {
 
     // move to the next key in the konami code sequence
     cheatCodePosition++;
 
     // if the last key is reached, activate cheats
     if (cheatCodePosition == cheatCode.length)
-      activateCheats2();
-  } else
-    cheatCodePosition = 0;
-
-  // compare the key with the required key
-  if (key == requiredKey) {
-
-    // move to the next key in the konami code sequence
-    konamiCodePosition++;
-
-    // if the last key is reached, activate cheats
-    if (konamiCodePosition == konamiCode.length)
       activateCheats();
   } else
-    konamiCodePosition = 0;
+    cheatCodePosition = 0;
 });
 
 function activateCheats() {
@@ -66,12 +48,5 @@ function activateCheats() {
   // var audio = new Audio('audio/pling.mp3');
   // audio.play();
 
-  alert("cheats activated");
-  window.open("pages/game.html");
-}
-
-function activateCheats2() {
-
-  alert("Ae caraio!!!");
-  // window.open("pages/game.html");
+  alert("outro código");
 }

@@ -18,7 +18,3 @@ Esse é um site que eu criei para expor minhas ideias, meus projetos e discutir 
 #### O porquê do Github Pages?
 
 Pq a hospedagem é gratuita, sem limite de banda e disco e também consigo modificar/controlar muita coisa.
-
-fighties
-karate master 2
-nidhogg

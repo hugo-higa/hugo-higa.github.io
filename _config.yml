@@ -20,19 +20,19 @@ paginate: 5
 language: 'pt-br'
 
 # Website info
-name: 'Página 404'
-description: "Uma página tão boa que você não acredita que existe"
+name: 'Cheat Code'
+description: "Um blog sobre programação e desenvolvimento de jogos"
 
 # Author's info
 author: 'Hugo'
 # edit 'categories' in the front matter of every post to match this username
 nickname: Hugo
 bio: 'すべてのあなたのベースは、私たちに属しています。'
-location: 'São Paulo, Brazil'
-url: 'http://pagina404.com.br'
+location: 'São Paulo, Brasil'
+url: 'http://hugo-0.github.io'
 image: 'assets/images/avatar.png'
 
-short_url: 'http://pagina404.com.br'
+short_url: 'http://hugo-0.github.io'
 google_analytics: UA-81662808-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -45,15 +45,12 @@ permalink: /:title
 
 
 # gems and other configs
-gems:
+gems: 
   - jekyll-paginate
   - jekyll-gist
-
+  
 exclude: [vendor]
 
-
-gist:
-  noscript: false
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
 # Author's page cover in _layouts/author.html

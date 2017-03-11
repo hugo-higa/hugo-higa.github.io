@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Página 404 - Articles</title>
-    <description>Uma página tão boa que você não acredita que existe</description>
+    <title>Cheat Code - Articles</title>
+    <description>Um blog sobre programação e desenvolvimento de jogos</description>
     <link>
-    http://localhost:4000</link>
+    http://hugo-0.github.io</link>
     
       
       <item>
@@ -16,8 +16,53 @@
         
         <pubDate>Wed, 03 Aug 2016 13:10:00 -0300</pubDate>
         <link>
-        http://localhost:4000/testes-de-alguns-markdowns</link>
-        <guid isPermaLink="true">http://localhost:4000/testes-de-alguns-markdowns</guid>
+        http://hugo-0.github.io/testes-de-alguns-markdowns</link>
+        <guid isPermaLink="true">http://hugo-0.github.io/testes-de-alguns-markdowns</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Site quase pronto</title>
+        
+          <description>&lt;p&gt;Depois de um mês implementando o site, a maior parte das coisas que eu queria colocar no site está funcionando.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 27 Jul 2016 14:00:00 -0300</pubDate>
+        <link>
+        http://hugo-0.github.io/site-quase-pronto</link>
+        <guid isPermaLink="true">http://hugo-0.github.io/site-quase-pronto</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Testando postagem no Android</title>
+        
+          <description>&lt;p&gt;Depois de um mês implementando o site, a maior parte das coisas que eu queria colocar no site está funcionando.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 20 Jul 2016 05:00:00 -0300</pubDate>
+        <link>
+        http://hugo-0.github.io/Testando-postagem-no-Android</link>
+        <guid isPermaLink="true">http://hugo-0.github.io/Testando-postagem-no-Android</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Primeiro post</title>
+        
+          <description>&lt;p&gt;Bem, esse é o primeiro post depois de uma semana tentando subir esse blog!! (Incompetência é foda).Ainda tenho que arrumar muita coisa no blog, mas já tenho algo bem funcional e fico contente por isso.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 03 Jul 2016 12:00:00 -0300</pubDate>
+        <link>
+        http://hugo-0.github.io/primeiro-post</link>
+        <guid isPermaLink="true">http://hugo-0.github.io/primeiro-post</guid>
       </item>
       
     

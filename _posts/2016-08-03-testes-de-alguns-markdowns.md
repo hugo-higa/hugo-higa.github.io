@@ -30,4 +30,15 @@ link automático: http://github.com
 Outro teste
 ~~~
 
+```java
+1. public class Teste{
+2.	public static void main(String[args]){
+3.		int variavel1 = 0;
+4.		int variavel2 = 2;
+5.		System.out.println(variavel1 + variavel2);
+6.	}
+7. }
+
+```
+
 {% gist c96cea874731e9981ab06015d00355d0 %}
